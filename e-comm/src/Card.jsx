@@ -30,7 +30,7 @@ export default function Card() {
     }
     return (
         <div>
-        <h1>your Card...</h1>
+        <h1>your Cart...</h1>
         <h2 style={{color:'blue',cursor:'pointer'}} onClick={hand}>Back To Home Page</h2>
         <h1>Total Amount :{sum}</h1>
             <div className='grid-temp'>
