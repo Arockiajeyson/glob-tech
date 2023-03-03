@@ -93,7 +93,7 @@ function App() {
   return (
     <>
       <h1>E-Commerce</h1>
-      <h2 onClick={card} style={{color:'blue',cursor:'pointer'}}>Go To Card</h2>
+      <h2 onClick={card} style={{color:'blue',cursor:'pointer'}}>Go To Cart</h2>
       <div className="product-container">
         <div className='filter-container'>
           <div>
