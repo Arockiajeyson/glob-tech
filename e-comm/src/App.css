@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+.product-container{
+  display: flex;
+}
+.grid-temp{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 30px;
+  margin-left: 100px;
+}
+body{
+  background-color: rgb(143, 223, 193);
+}
+.content-grid{
+  background-color: wheat;
+  padding: 30px;
+  border-radius: 10px;
+}
+.filter-container{
+  background-color: white;
+  padding: 30px;
+  margin-top: 60px;
+  margin-left: 30px;
+  height: 800px;
+  border-radius: 20px;
+}
+h1{
+  text-align: center;
+}
+img{
+  border-radius: 5px;
+}
+h2{
+  text-align: end;
+}
