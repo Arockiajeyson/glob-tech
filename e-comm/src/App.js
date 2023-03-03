@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios'
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
 function App() {
@@ -24,7 +25,7 @@ function App() {
   const [filterBar,setfilterBar] =useState(false)
   const [filter, setfilter] = useState([])
   const [filterC, setfilterC] = useState([])
-  const [pageNo, setPageNo] = useState(0)
+  const [pageNo, setPageNo] = useState(1)
   const [idLoc] = useState([])
   const [Fbrand, setFbrand] = useState({
     men: false,
@@ -136,7 +137,7 @@ function App() {
               })}
             </div>
             { pagination ===false ?<Stack spacing={2} marginLeft={'200px'} width={'600px'}>
-              {/* <Typography>Page: {pageNo}</Typography> */}
+              <Typography>Page: {pageNo}</Typography>
               <Pagination count={10} page={pageNo} onChange={handleChange} shape="rounded" />
             </Stack>:''}
           </div> : filter.length >0 ?<div className='grid-temp'>
