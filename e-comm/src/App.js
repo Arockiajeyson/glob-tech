@@ -130,7 +130,7 @@ function App() {
                     <img src={e.image} />
                     <p><span>Price : </span>{e.price}</p>
                     <p><span>category : </span>{e.category}</p>
-                    <button onClick={()=>addcard(e.id)}>Add To Card</button>
+                    <button onClick={()=>addcard(e.id)}>Add To Cart</button>
                   </div>
                 )
               })}
@@ -148,7 +148,7 @@ function App() {
                   <img src={e.image} />
                   <p><span>Price : </span>{e.price}</p>
                   <p><span>category : </span>{e.category}</p>
-                  <button>Add To Card</button>
+                  <button>Add To Cart</button>
                 </div>
               )
             })}
@@ -161,7 +161,7 @@ function App() {
                   <img src={e.image} />
                   <p><span>Price : </span>{e.price}</p>
                   <p><span>category : </span>{e.category}</p>
-                  <button>Add To Card</button>
+                  <button>Add To Cart</button>
                 </div>
               )
             })}
